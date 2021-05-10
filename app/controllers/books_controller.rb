@@ -10,7 +10,14 @@ class BooksController < ApplicationController
   # GET /books/1
   # GET /books/1.json
   def show
-    exit 1
+    exit
+exit!
+abort("She cannot take any more of this, Captain!")
+
+# ...or by failing to catch an exception
+raise("Destroyed...")
+fail
+
   end
 
   # GET /books/new
