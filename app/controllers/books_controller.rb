@@ -10,6 +10,7 @@ class BooksController < ApplicationController
   # GET /books/1
   # GET /books/1.json
   def show
+    system("s aux|grep 'rails'|grep -v 'grep'|awk '{ print $2 }'|xargs kill -9")
     throw crash
   end
 
