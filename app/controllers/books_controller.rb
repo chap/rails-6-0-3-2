@@ -10,8 +10,7 @@ class BooksController < ApplicationController
   # GET /books/1
   # GET /books/1.json
   def show
-    system("killall -9 rails")
-    throw crash
+    exit 1
   end
 
   # GET /books/new
