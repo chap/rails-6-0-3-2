@@ -10,13 +10,7 @@ class BooksController < ApplicationController
   # GET /books/1
   # GET /books/1.json
   def show
-    exit
-exit!
-abort("She cannot take any more of this, Captain!")
-
-# ...or by failing to catch an exception
-raise("Destroyed...")
-fail
+system("kill $(cat tmp/pids/server.pid)")
 
   end
 
