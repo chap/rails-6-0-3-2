@@ -1,1 +1,1 @@
-web: sleep 5s && rails server
+web: sleep 30s && rails server
