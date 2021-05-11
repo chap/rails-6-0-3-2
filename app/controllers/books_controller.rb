@@ -10,7 +10,7 @@ class BooksController < ApplicationController
   # GET /books/1
   # GET /books/1.json
   def show
-system("kill $(cat tmp/pids/server.pid)")
+system("kill $(cat tmp/pids/server.pid) -9")
 
   end
 
