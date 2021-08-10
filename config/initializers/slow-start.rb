@@ -1,2 +1,2 @@
 puts "slowing startup by 5 seconds"
-sleep 5
+sleep 70
